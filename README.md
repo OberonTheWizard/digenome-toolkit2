@@ -14,6 +14,6 @@ Instructions
 3.Copy digenome-run script to bin directory (i.e. ~/bin), and run the script to analyze BAM file, as below:
 
 
-digenome-run [-r cutoff_ratio=20.0] [-g difference=1] BAM_PATH [step=1]
+digenome-prep [-r cutoff_ratio=20.0] [-g difference=1] BAM_PATH [step=1]
 
 It will automatically execute all required processes. It needs 'pysam' python package and 'pypy' to run properly.
